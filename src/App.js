@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NoAnchorArrow from './NoAnchorArrow'
+import SelectTime from './SelectTime'
 
 function App() {
   
@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       
-      <NoAnchorArrow />
+      <SelectTime />
 
     </div>
   )
