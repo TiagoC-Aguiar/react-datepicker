@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SelectTime from './SelectTime'
+import SelectTimeOnly from './SelectTimeOnly'
 
 function App() {
   
@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       
-      <SelectTime />
+      <SelectTimeOnly />
 
     </div>
   )
