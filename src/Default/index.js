@@ -8,9 +8,16 @@ function Default() {
  
   const [startDate, setStartDate] = useState(new Date())
     
+  console.log('default')
   return (
     <div>
-      <DatePicker selected={startDate} onChange={date => setStartDate(date)} />
+      padrão
+      <DatePicker 
+          selected={startDate} 
+          onChange={date => setStartDate(date)} 
+          dateFormat='dd/MM/yyyy'
+          
+        />
     </div>
   )
 }

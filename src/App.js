@@ -1,10 +1,17 @@
 import React from 'react'
 
-import Default from './components/Default'
+import NoAnchorArrow from './NoAnchorArrow'
 
-const App = () => {
+function App() {
+  
+  console.log('app');
+  
   return (
-    <Default />
+    <div>
+      
+      <NoAnchorArrow />
+
+    </div>
   )
 }
 
